@@ -1,5 +1,5 @@
 import HTMLParser from 'html-to-json-parser';
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 const useEditor = () => {
   const [{ value, htmlInput }, setState] = useState({
